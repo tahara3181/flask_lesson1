@@ -6,7 +6,7 @@ from tensorflow.keras.models import Sequential, load_model
 from PIL import Image
 import numpy as np
 
-
+# 変数の宣言
 UPLOAD_FOLDER = "./static/images/"
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "gif"}
 
@@ -16,23 +16,23 @@ n_class = 10
 img_size = 32
 n_result = 5
 
+# Flaskのインスタンス化とUPLOAD_FOLDERの定義
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-
+# allowed_file()関数の定義
 def allowed_file(filename):
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
-
+# Topページのルーティングとindex()関数の定義
 @app.route("/", methods=["GET"])
 def index():
     return render_template("index.html")
 
-
+# 判定結果ページのルーティングとresult()関数の定義
 @app.route("/result", methods=["GET", "POST"])
 def result():
     if request.method == "POST":
-        print('test:', request.files)
         # ファイルの存在と形式を確認
         if "file" not in request.files:
             print("File doesn't exist!")
