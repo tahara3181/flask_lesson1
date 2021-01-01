@@ -1,5 +1,3 @@
-<iframe name="oauth2relay484350284" id="oauth2relay484350284" src="https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Fcolab.research.google.com&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.GhYSaDTWhs4.O%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAHpOoo_CcmyUNBPTBtz4hsH0C6OHKqodVQ%2Fm%3D__features__#rpctoken=835915230&amp;forcesecure=1" tabindex="-1" aria-hidden="true" style="color: rgb(33, 33, 33); font-family: Roboto, Noto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 1px; height: 1px; position: absolute; top: -100px;"></iframe>
-
 #  Cifa10で学習したモデルで画像判定
 
 ## 仮想環境作成(venv)
