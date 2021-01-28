@@ -205,7 +205,7 @@ pip freeze > requirements.txt
 新規で runtime.txt を作成して以下の内容を記述
 
 ```
-python-3.6.10
+python-3.6.12
 ```
 
 - tensorflow==2.0.0をインストールするためには、Pythonのバージョンが最新ではインストールできませんので注意してください。
